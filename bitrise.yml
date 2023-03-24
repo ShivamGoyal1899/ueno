@@ -24,7 +24,7 @@ workflows:
         inputs:
         - project_location: $BITRISE_FLUTTER_PROJECT_LOCATION
         - platform: ios
-        - additional_build_params: --build-number=10010 --build-name=1.34.0
+        - additional_build_params: --build-number=10020 --build-name=1.35.0
         - ios_output_type: archive
     - cache-push@2: {}
     - xcode-archive@4:
